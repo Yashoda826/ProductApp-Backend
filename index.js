@@ -15,11 +15,11 @@ app.use(cors());
 dotenv.config();
 
 // user defined modules 
-var db = require('../onekart-backend/utilities/db.config');
-var userRouter = require('../onekart-backend/routes/user.route');
-var categoryRouter = require("../onekart-backend/routes/category.route");
-var productRouter = require("../onekart-backend/routes/product.route");
-var orderRouter = require("../onekart-backend/routes/order.route");
+var db = require('../ProductApp-Backend/utilities/db.config');
+var userRouter = require('../ProductApp-Backend/routes/user.route');
+var categoryRouter = require("../ProductApp-Backend/routes/category.route");
+var productRouter = require("../ProductApp-Backend/routes/product.route");
+var orderRouter = require("../ProductApp-Backend/routes/order.route");
 
 db.connectToDB();
 
